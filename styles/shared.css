@@ -4,6 +4,9 @@
     --color-gray-800: rgb(95, 95, 95);
     --color-gray-900: rgb(65, 64, 63);
 
+    --color-pink-500: rgb(203, 128, 125);
+    --color-purple-600: rgb(162, 112, 138);
+
     --header-bg-alpha: rgb(250, 249, 246, 0.5);
 
     --primary-font-family: "Roboto", sans-serif;
@@ -28,7 +31,8 @@ body {
 }
 
 main {
-    margin-top: 7rem;
+    margin: 7rem auto var(--space-8);
+    width: 70%;
 }
 
 a {
