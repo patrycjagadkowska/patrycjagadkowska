@@ -1,5 +1,4 @@
 #hello {
-    font: 2.5rem var(--secondary-font-family);
+    font: 7rem var(--secondary-font-family);
     letter-spacing: 2px;
-
 }
