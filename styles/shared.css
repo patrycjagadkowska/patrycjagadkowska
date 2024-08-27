@@ -4,6 +4,7 @@
     --color-gray-800: rgb(95, 95, 95);
     --color-gray-900: rgb(65, 64, 63);
 
+    --color-pink-200: rgb(237, 214, 212);
     --color-pink-500: rgb(203, 128, 125);
     --color-purple-600: rgb(162, 112, 138);
 
@@ -98,7 +99,7 @@ a {
 
 .nav-list-item::after {
     content: "";
-    background-color: var(--color-gray-200);
+    background-color: var(--color-pink-200);
     display: inline-block;
     position: absolute;
     height: 1rem;
