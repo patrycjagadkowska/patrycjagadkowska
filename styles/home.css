@@ -17,3 +17,13 @@
     color: var(--color-purple-600);
     letter-spacing: 1px;
 }
+
+#basic-info a {
+    display: inline-block;
+    transition: transform 0.2s ease-in;
+}
+
+#basic-info a:hover,
+#basic-info a:active {
+    transform: scale(1.1);
+}
