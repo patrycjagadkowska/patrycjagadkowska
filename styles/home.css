@@ -2,3 +2,18 @@
     font: 7rem var(--secondary-font-family);
     letter-spacing: 2px;
 }
+
+#basic-info {
+    display: flex;
+}
+
+#basic-info p {
+    color: var(--color-pink-500);
+    text-align: justify;
+    line-height: var(--space-6);
+}
+
+#basic-info strong {
+    color: var(--color-purple-600);
+    letter-spacing: 1px;
+}

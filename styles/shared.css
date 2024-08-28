@@ -151,3 +151,8 @@ a {
     color: var(--color-gray-900);
     background-size: 200% 100%;
 }
+
+.col-lg-2 {
+    width: 50%;
+    padding: var(--space-4)
+}
