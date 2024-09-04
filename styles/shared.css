@@ -23,6 +23,7 @@
     --border-radius-medium: 6px;
 
     --box-shadow-basic: 0 0 10px rgba(65, 65, 65, 0.2);
+    --box-shadow-card: 4px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
 body {
