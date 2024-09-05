@@ -59,6 +59,19 @@
     padding-bottom: var(--space-6);
 }
 
+.card-title.slide-in,
+.card-tech.slide-in {
+    transform: translateY(0%);
+}
+
+.card-title.slide-out {
+    transform: translateY(-100%);
+}
+
+.card-tech.slide-out {
+    transform: translateY(100%);
+}
+
 .card-title h3 {
     margin: var(--space-2) 0 var(--space-1);
     text-align: center;
@@ -73,10 +86,30 @@
     display: flex;
     justify-content: center;
     opacity: 0;
+    height: 100%;
+    background-color: var(--pink-bg-alpha);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-actions.slide-in {
+    opacity: 1;
 }
 
 .card-actions a {
     margin: var(--space-1) var(--space-4);
+}
+
+.card-actions svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    transition: transform 0.3s ease-out;
+}
+
+.card-actions svg:hover {
+    transform: scale(1.2);
 }
 
 .card-tech {
