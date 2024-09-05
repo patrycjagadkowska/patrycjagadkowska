@@ -8,7 +8,8 @@
     --color-pink-500: rgb(203, 128, 125);
     --color-purple-600: rgb(162, 112, 138);
 
-    --header-bg-alpha: rgb(250, 249, 246, 0.5);
+    --header-bg-alpha: rgba(250, 249, 246, 0.5);
+    --pink-bg-alpha: rgba(237, 214, 212, 0.5);
 
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "New Amsterdam", sans-serif;
