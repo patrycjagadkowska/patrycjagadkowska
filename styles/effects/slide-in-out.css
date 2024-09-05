@@ -1,0 +1,3 @@
+.sliding-el, .sliding-el-reverse {
+    transition: all 0.2s ease-in;
+}
