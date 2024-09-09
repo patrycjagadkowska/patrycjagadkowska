@@ -1,4 +1,8 @@
-#projects {
+#page-title {
+    margin: 3rem 0;
+    font-size: 5rem;
+    color: var(--color-purple-600);
+    text-align: center;
 }
 
 .card-list {
