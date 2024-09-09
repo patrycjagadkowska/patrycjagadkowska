@@ -1,0 +1,17 @@
+h1 {
+    margin: 3rem 0;
+    font-size: 5rem;
+    color: var(--color-pink-500);
+}
+
+#contact-section p {
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: var(--space-8);
+}
+
+.btn-wrapper {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+}
