@@ -1,8 +1,7 @@
 #page-title {
-    margin: 3rem 0;
+    margin: 10rem 0 3rem;
     font-size: 5rem;
     color: var(--color-purple-600);
-    text-align: center;
 }
 
 .card-list {
