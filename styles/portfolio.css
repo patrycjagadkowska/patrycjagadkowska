@@ -137,3 +137,27 @@
     margin: var(--space-1) var(--space-2);
     color: var(--color-purple-600);
 }
+
+@media (max-width: 768px) {
+    #page-title {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .card-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-list-item {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-list-item {
+        width: 15rem;
+        height: 15rem;
+    }
+}
