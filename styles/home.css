@@ -27,3 +27,46 @@
 #basic-info a:active {
     transform: scale(1.1);
 }
+
+#my-photo {
+    height: 100%;
+    min-height: 20rem;
+    background-image: url("/assets/my-photo.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#my-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    #hello {
+        font-size: 5rem;
+    }
+
+    #basic-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #basic-info .col-lg-2 {
+        width: 100%;
+    }
+
+    #my-photo {
+        min-height: 30rem;
+    }
+}
+
+@media (max-width: 576px) {
+    main {
+        width: 80%;
+    }
+
+    #hello {
+        font-size: 4rem;
+    }
+}
